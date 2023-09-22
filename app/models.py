@@ -7,3 +7,6 @@ class Profile(models.Model):
     username = models.OneToOneField(User,on_delete=models.CASCADE)
     address = models.TextField()
     pro_image = models.ImageField()
+
+    
+    
